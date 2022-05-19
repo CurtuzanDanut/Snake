@@ -1,0 +1,28 @@
+#snakeboard {
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#score {
+  font-size: 100px;
+  text-align: center;
+}
+
+.game-status {
+  font-size: 80px;
+}
+
+#restartBtn {
+  margin-left: 100px;
+  font-size: 15px;
+  padding: 10px 30px;
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#restartBtn:hover{
+    opacity: 1
+}
